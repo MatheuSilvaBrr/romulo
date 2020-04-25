@@ -1,0 +1,6 @@
+Na classe pessoa temos um atributo privado de nome, e seus métodos de acesso e modificador,
+na classe main você cria um novo nome do tipo String, faz a instanciação do objeto pessoa dando um new Pessoa(),
+e a variável p fica com a referência dessa instancia, logo em seguida utilizamos o método modificador para mudar o nome da pessoa,
+como parâmetro passamos a variável nome que criamos no início do método main.
+Em seguida usamos System.out.println para imprimir as informações da pessoa no console,
+ mas como não foi implementado o toString na classe Pessoa, ele irá imprimir o nome do pacote + nome da classe +  a referência do objeto.
